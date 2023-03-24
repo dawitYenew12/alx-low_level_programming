@@ -1,5 +1,4 @@
-#include "main.h"
-#include <stdio.h>
+#includ "main.h"
 
 /**
  * print_diagonal - Print diagonal line dependent on the integer n.
