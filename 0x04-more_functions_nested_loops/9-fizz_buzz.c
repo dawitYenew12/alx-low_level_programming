@@ -11,31 +11,29 @@ int main(void)
 {
 	int i;
 
-	while (i < 101)
+	for (i = 0; i <= 100; i++)
 	{
-		if (i % 3 == 0 && i % 5 == 0)
+		if ((i % 3 == 0) && (i % 5 == 0))
 		{
-			printf("%s", "FizzBuzz");
+			printf("FizzBuzz");
 		}
 		else if (i % 3 == 0)
 		{
-			printf ("%s", "Fizz");
+			printf("Fizz");
 		}
 		else if (i % 5 == 0)
 		{
-			printf("%s", "Buzz");
+			printf("Buzz");
 		}
 		else
 		{
-			printf("%d", i);
+			printf("%i", i);
 		}
 
-		if (i != 100)
-		{
+		if (i < 100)
 			printf(" ");
-		}
-		i++;
+		else
+			printf('\n');
 	}
-	printf("\n");
 	return (0);
 }
