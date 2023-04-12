@@ -1,1 +1,1 @@
-0x09. C - Static librarieswq
+0x09-static_libraries
