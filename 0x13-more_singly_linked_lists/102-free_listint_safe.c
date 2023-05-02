@@ -16,7 +16,7 @@ size_t free_listint_safe(listint_t **h)
 		return (0);
 
 	while (*h)
-OBOB	{
+	{
 		diff = *h - (*h)->next;
 		if (diff > 0)
 		{
@@ -24,7 +24,7 @@ size_t free_listint_safe(listint_t **h)
 			free(*h);
 			*h = temp;
 			len++;
-OB		}
+		}
 		else
 		{
 			free(*h);
